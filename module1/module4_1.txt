@@ -1,0 +1,6 @@
+SQL stands for ____________________.
+We use SQL to ____________________.
+A database table stores ____________________.
+SQL can be used to ____________________.
+SQL was first developed at ____________________.
+
