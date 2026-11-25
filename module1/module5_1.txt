@@ -1,0 +1,77 @@
+
+1. What is AI? What is an LLM?
+
+AI (Artificial Intelligence) is the field of creating computer systems that can perform tasks that usually require human-like abilities, such as understanding language, recognizing images, or making predictions.
+
+An LLM (Large Language Model) is an AI model trained on large amounts of text. It can process and generate language, for example by answering questions, summarizing text, or writing code.
+
+
+2. What does LLM model size mean?
+
+Model size can refer to the number of parameters in a model or the amount of storage space its files use. These are related but not identical. The file size also depends on how the parameters are represented, such as their numerical precision, and whether the model has been compressed or quantized.
+
+
+3. What is a token, and how does tokenization work?
+
+A token is a piece of text processed by a language model. It may be a whole word, part of a word, punctuation, or another text unit.
+
+Tokenization is the process of splitting text into tokens and converting them into numerical IDs that the model can process. Different models may use different tokenizers, so the same text can produce different token sequences.
+
+
+4. What are parameters in an LLM, and how are they related to model size?
+
+Parameters are numerical values learned during a model's training. They help determine how the model processes input and generates output.
+
+A model with more parameters often requires more memory and storage, but parameter count alone does not determine how capable a model is. Training data, model design, and parameter precision also matter.
+
+
+5. What is fine-tuning?
+
+Fine-tuning is additional training performed on a previously trained model using a more specific dataset. It can adapt the model's behavior or knowledge for a particular task or domain.
+
+
+6. What is prompt engineering? How is it different from fine-tuning?
+
+Prompt engineering means writing and organizing instructions and context to guide a model's response.
+
+Prompt engineering changes the input sent to a model; it does not update the model's learned parameters. Fine-tuning uses additional training to change some of the model's learned parameters.
+
+
+7. What are embeddings, and why are they important?
+
+Embeddings are lists of numbers that represent information, such as words, sentences, or documents. Similar meanings are often represented by vectors that are close to one another.
+
+Embeddings are useful for semantic search, recommendations, grouping similar information, and finding relevant documents for a question.
+
+
+8. What is an LLM context window? Why does it matter in coding or when working with an LLM?
+
+A context window is the amount of text, measured in tokens, that a model can consider in one request or conversation turn.
+
+It matters because instructions, code, and conversation history all use part of that space. If important content does not fit, the model may not be able to consider all of it at once.
+
+
+9. What are LLM hallucinations? What are some limitations of LLMs?
+
+A hallucination is an answer that sounds plausible but contains incorrect, invented, or unsupported information.
+
+LLMs can make factual mistakes, misunderstand a question, produce outdated information, or generate code that does not work. Their answers should be checked, especially when accuracy is important.
+
+
+10. How can an LLM interact with computers? What is RAG?
+
+An LLM application can interact with a computer through tools, such as functions, APIs, databases, or other software. The application can allow the model to request a tool, run it, and provide the result back to the model.
+
+RAG means Retrieval-Augmented Generation. A RAG system searches for relevant information in documents or another data source, then provides that information to the LLM as context for generating an answer.
+
+
+11. Name three frameworks for getting started with LLM applications.
+
+1. LangChain: A framework for building LLM applications, including applications that use tools, agents, and retrieval.
+
+2. LlamaIndex: A framework for connecting LLM applications to external data and building retrieval-based applications.
+
+3. Haystack: A framework for building modular pipelines, search systems, RAG applications, and agents.
+
+These are examples, not a ranking. The best choice depends on the project and the tools a learner wants to use.
+
